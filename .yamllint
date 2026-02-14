@@ -1,0 +1,42 @@
+extends: default
+
+rules:
+  # --- formatting ---
+  line-length:
+    max: 120
+    level: warning
+
+  indentation:
+    spaces: 2
+    indent-sequences: consistent
+
+  trailing-spaces: enable
+  new-lines: enable
+  new-line-at-end-of-file: enable
+
+  # --- readability for CV writing ---
+  comments:
+    min-spaces-from-content: 1
+
+  document-start: disable   # we don't want '---' at top
+
+  truthy:
+    allowed-values: ["true", "false", "on", "off"]
+
+  quoted-strings:
+    required: false
+
+  empty-lines:
+    max: 1
+    max-start: 0
+    max-end: 1
+
+  # --- important for RenderCV ---
+  key-duplicates: enable
+  key-ordering: disable     # CV sections shouldn't be forced alphabetical
+
+  # allow long paragraphs in profile/summary
+  comments-indentation: disable
+
+ignore:
+  .venv/

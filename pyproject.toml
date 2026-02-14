@@ -1,0 +1,10 @@
+[project]
+name = "resume"
+version = "2.6"
+requires-python = ">=3.12"
+dependencies = [
+  "rendercv[full]",
+]
+
+[tool.uv]
+# Optional: you can pin exact versions by running `uv lock`

@@ -1,0 +1,5 @@
+rendercv_output/
+*.pdf
+.venv/
+__pycache__/
+.direnv/

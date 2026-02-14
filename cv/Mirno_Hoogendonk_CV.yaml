@@ -1,0 +1,147 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.4/schema.json
+cv:
+  name: Mirno Hoogendonk
+  location: Alkmaar
+  website:
+  #   - "https://mirno.info" # offline
+  social_networks:
+    - network: LinkedIn
+      username: mirno-hoogendonk-7b71a1148
+    - network: GitHub
+      username: mirno
+  sections:
+    Education:
+      - institution: TU Delft
+        area: Computer Engineering (Pre-Master)
+        location: Delft, Netherlands
+        start_date: 2017-01
+        end_date: 2018-12
+        summary: Unfinished pre-master program.
+
+      - institution: Inholland University of Applied Sciences
+        area: Electrical Engineering
+        location: Alkmaar, Netherlands
+        start_date: 2012-01
+        end_date: 2017-12
+
+      - institution: Regius College
+        area: HAVO
+        location: Schagen, Netherlands
+        start_date: 2009-01
+        end_date: 2012-12
+    experience:
+      - company: ABN AMRO
+        position: Software Developer (Platform APIs)
+        location: Netherlands
+        start_date: 2024-01
+        end_date: present
+        highlights:
+          - Proof-of-Concept to redesign the platform towards an API-First & vendor-agnostic platform
+          - Built composable platform APIs (gRPC/REST) to abstract underlying infrastructure/automation tools.
+          - Shift from monolithic tooling and one-off workflows toward resource-like services.
+          - Used Go for type-safety and maintainability; applied Team Topologies, clean-architecture,
+            Domain-Driven Design and SOLID principles.
+          - Implemented token-based access (OAuth2/OIDC) and policy-based authorization (OPA).
+          - "services: Compute, Secrets, PKI, IAM, Network"
+      - company: ABN AMRO
+        position: Lead Engineer (Automation Services, VCF / Aria)
+        location: Netherlands
+        start_date: 2023-01
+        end_date: present
+        highlights:
+          - Building On-premise platform onto new hardware, moving towards Dell hardware + VMware instead of Cisco UCS
+          - Led engineering for automation services during transition to a self-managed datacenter.
+          - Worked across ITSM (ServiceNow), IPAM (Infoblox), certificate automation, CyberArk, Ansible Tower, NSX-T.
+          - Responsibilities included firewall segmentation, DNS migration, and certificate rotation automation.
+          - Bridged infra + platform teams by owning end-to-end context from hardware to developer experience.
+      - company: ABN AMRO
+        position: Platform Engineer (Private Cloud / IaaS)
+        location: Netherlands
+        start_date: 2020-01
+        end_date: 2022-12
+        highlights:
+          - Building the UCS internal platform
+          - Worked on automated hardware and VM deployments.
+          - Certificate automation
+          - IPAM/DNS automation
+          - CISCO UCS
+          - Improved Windows & Linux deployment flows for internal cloud consumers.
+          - Involved in storage solutions and migrations (e.g., NetApp) and broader design/process work.
+      - company: ABN AMRO (via Didacticum)
+        position: Trainee (IT / Infrastructure)
+        location: Netherlands
+        start_date: 2019-01
+        end_date: 2020-01
+        highlights:
+          - Completed training (networking, Azure fundamentals, Scrum, O365, Hyper-V, Windows Server/AD).
+          - Joined UCS team working building a new on-premise cloud platform (VMware, Linux, Windows, networking).
+      - company: Radac
+        position: Sensor Development (Maritime Industry)
+        location: Delft, Netherlands
+        start_date: 2017-01
+        end_date: 2018-12
+        highlights:
+          - Built, tested, repaired, and developed maritime sensors (waves/tide/height monitoring).
+          - Used basic Linux knowledge for hardware programming and diagnostics.
+      - company: ECN (Energy research center)
+        position: Researcher / Developer / Designer (Graduation Internship)
+        location: Petten, Netherlands
+        start_date: 2016-01
+        end_date: 2017-12
+        highlights:
+          - Developed measurement devices for elemental carbon detection using UV/optics concepts.
+          - Contributed to spectroscopy design and data analysis tooling (Python).
+      - company: ECN (Solar Energy)
+        position: Intern (BSc)
+        location: Petten, Netherlands
+        start_date: 2014-01
+        end_date: 2016-12
+        highlights:
+          - Built simulation tooling in Python for PV panels; handled large-scale data manipulation.
+          - Designed measurement devices with wireless logging; implemented GUI and Excel logging.
+          - Worked with electronics concepts (power supplies, ADC measurements, PCB design) and some C.
+    # projects:
+    skills:
+      - label: Software Development (Languages)
+        details: Go, Python
+      - label: Event-Driven Architecture
+        details: NATS
+      - label: Package management
+        details: NIX
+      - label: Platform Engineering & Infra
+        details: Virtualisation, Networking, PKI, Storage, IAM, Linux
+      - label: Configuration Management
+        details: Terraform, Ansible
+      - label: PKI, Security & IAM
+        details: OAuth2/OIDC, OPA, Vault, CyberArk, Keycloak, Authentik, Ory, step-ca
+      - label: APIs & Engineering
+        details: gRPC/Protobuf, OpenAPI, testing/mocking, CI/CD patterns, API-first
+      - label: Observability
+        details: OpenTelemetry, Grafana, Zabbix (SNMP)
+
+    courses_and_certifications:
+      - bullet: "**TOGAF** (2024)"
+      - bullet: "**NSX-T** (2023)"
+      - bullet: "**VCA-VOL** (2013–present)"
+      - bullet: "**IELTS Academic English** (2017)"
+      - bullet: "**Mathematics T (university level)** (2017)"
+    books:
+      - Domain-Driven Design
+      - Domain-Driven Design in Go
+      - Platform Engineering
+      - Microservice architrecture
+      - Continuous Integration
+      - Tidy first
+      - Design Patterns
+      - Mag ik je geen advies geven
+      - Clean architecture
+      - Team Topologies
+design:
+  theme: classic
+  page:
+    size: a4
+    top_margin: 0.7in
+    bottom_margin: 0.7in
+    left_margin: 0.7in
+    right_margin: 0.7in
+    show_footer: true
