@@ -1,0 +1,47 @@
+name: Build CV
+
+on:
+  push:
+    paths:
+      - "cv/**"
+      - "Makefile"
+      - "pyproject.toml"
+      - "uv.lock"
+      - "flake.nix"
+      - "flake.lock"
+      - ".github/workflows/build-cv.yml"
+  pull_request:
+    paths:
+      - "cv/**"
+      - "Makefile"
+      - "pyproject.toml"
+      - "uv.lock"
+      - "flake.nix"
+      - "flake.lock"
+      - ".github/workflows/build-cv.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Install Nix
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@v16
+
+      - name: Lint (in nix develop)
+        run: nix develop -c make lint
+
+      - name: Build CV (in nix develop)
+        run: nix develop -c make build
+
+      - name: Upload CV artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Mirno_Hoogendonk_CV
+          if-no-files-found: error
+          path: |
+            cv/rendercv_output/Mirno_Hoogendonk_CV.pdf
+            cv/rendercv_output/Mirno_Hoogendonk_CV.md

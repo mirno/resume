@@ -2,7 +2,7 @@
 
 This repository contains my CV written in YAML and rendered to PDF using **RenderCV**.
 
-## [**Click here** for the CV in markdown format](cv.md)
+## [**Click here** for the CV in markdown format](cv/cv.md)
 
 - Source of truth: `cv/Mirno_Hoogendonk_CV.yaml`
 - Generated output: `rendercv_output/` (default path; ignored by git)

@@ -1,37 +1,30 @@
 CV_FILE := cv/Mirno_Hoogendonk_CV.yaml
 
-# Default path by rendercv
-OUTPUT_DIR := cv/rendercv_output/
+# Paths are relative to the input file (cv/)
+OUT_DIR_REL := rendercv_output
+PDF_REL := $(OUT_DIR_REL)/Mirno_Hoogendonk_CV.pdf
+MD_REL := cv.md
 
-MD_CV := ../cv.md
-
-VENV := .venv
-PY := $(VENV)/bin/python
 RENDERCV := uv run rendercv
 
-.PHONY: build watch clean lint lint-yaml lint-typos deps
+.PHONY: deps build watch clean lint lint-yaml lint-typos
 
 deps:
 	uv sync
 
 build: deps
-	$(RENDERCV) render $(CV_FILE) -md $(MD_CV)
+	@mkdir -p cv/$(OUT_DIR_REL)
+	$(RENDERCV) render $(CV_FILE) -pdf $(PDF_REL) -md $(MD_REL)
 	@echo ""
-	@echo "CV files generated in $(OUTPUT_DIR)"
-	@echo "CV markdown generated in $(MD_CV)"
+	@echo "CV PDF generated at cv/$(PDF_REL)"
+	@echo "CV markdown generated at cv/$(MD_REL)"
 
-build:
-	$(RENDERCV) render $(CV_FILE) -md $(MD_CV)
-	@echo ""
-	@echo "CV files generated in $(OUTPUT_DIR)"
-	@echo "CV markdown generated in $(MD_CV)"
-
-watch:
+watch: deps
 	@echo "Watching for changes..."
-	$(RENDERCV) render $(CV_FILE) --watch
+	$(RENDERCV) render $(CV_FILE) -pdf $(PDF_REL) -md $(MD_REL) --watch
 
 clean:
-	rm -rf $(OUTPUT_DIR)
+	rm -rf cv/$(OUT_DIR_REL) cv/$(MD_REL)
 
 lint: lint-yaml lint-typos
 

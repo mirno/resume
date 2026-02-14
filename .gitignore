@@ -1,5 +1,10 @@
-rendercv_output/
-*.pdf
+# Python
 .venv/
 __pycache__/
+
+# Nix / direnv
 .direnv/
+
+# RenderCV outputs
+cv/rendercv_output/
+
