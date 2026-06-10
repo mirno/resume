@@ -31,10 +31,29 @@ cv:
         end_date: 2012-12
     experience:
       - company: ABN AMRO
+        position: Kubernetes / Crossplane POC
+        location: Netherlands
+        start_date: 2026-04
+        end_date: present
+        highlights:
+          - Setting up a Kubernetes cluster (KIND/Minikube/AKS) and validate if we can utilize crossplane for our custom infrastructure provisioning
+          - Helmfile for managing helm charts
+          - Investigating technologies for GitOps, such as ArgoCD
+      - company: ABN AMRO
+        position: Implementing event Driven architecture
+        location: Netherlands
+        start_date: 2025-04
+        end_date: present
+        highlights:
+          - Building an AlertProcessor in GoLang, to channel different alerts from various tools under a single Schema
+          - Recommendations and exploration around NATS as a message broker
+          - Using Kafka since we already had this tool available within the landscape
+          - The usage of interfaces allowed us to change nats -> kafka drivers using dependency injection techniques (clean architecture principles)
+      - company: ABN AMRO
         position: Software Developer (Platform APIs)
         location: Netherlands
         start_date: 2024-01
-        end_date: present
+        end_date: 2026-04
         highlights:
           - Proof-of-Concept to redesign the platform towards an API-First & vendor-agnostic platform
           - Built composable platform APIs (gRPC/REST) to abstract underlying infrastructure/automation tools.
