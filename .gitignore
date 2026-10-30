@@ -8,3 +8,5 @@ __pycache__/
 # RenderCV outputs
 cv/rendercv_output/
 
+# Ignore the image in the commit
+*savan.png
