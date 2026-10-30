@@ -7,7 +7,7 @@ MD_REL := cv.md
 
 RENDERCV := uv run rendercv
 
-.PHONY: deps build watch clean lint lint-yaml lint-typos
+.PHONY: deps build savan watch clean lint lint-yaml lint-typos
 
 deps:
 	uv sync
@@ -18,6 +18,9 @@ build: deps
 	@echo ""
 	@echo "CV PDF generated at cv/$(PDF_REL)"
 	@echo "CV markdown generated at cv/$(MD_REL)"
+
+savan: deps
+	$(RENDERCV) render cv/savan_en.yaml
 
 watch: deps
 	@echo "Watching for changes..."

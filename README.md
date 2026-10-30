@@ -7,6 +7,7 @@ This repository contains my CV written in YAML and rendered to PDF using **Rende
 - Source of truth: `cv/Mirno_Hoogendonk_CV.yaml`
 - Generated output: `rendercv_output/` (default path; ignored by git)
 - run `make build` to generate the content
+- run `make savan` to render `cv/savan.yaml`
 - run `make lint` to lint the files and check for typos
 
 Uses the `yaml-language-server` and the corresponding [JSON-schema](https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.4/schema.json) to auto-complete
