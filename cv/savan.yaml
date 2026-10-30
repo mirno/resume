@@ -1,10 +1,11 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.4/schema.json
 cv:
   name: Savan Doornink
+  headline: Medewerker Beleid en Bedrijfsvoering
   photo: savan.png
   phone: "+31 6 39201735"
   email: savan24102@gmail.com
-  location: Sint Laurensstraat 7j, 1811 KM Alkmaar
+  location: Alkmaar, Nederland
   sections:
     Profiel:
       - >-
@@ -125,3 +126,59 @@ design:
     left_margin: 0.7in
     right_margin: 0.7in
     show_footer: true
+    show_top_note: false
+  colors:
+    body: "#30343B"
+    name: "#183B56"
+    headline: "#526475"
+    connections: "#526475"
+    section_titles: "#183B56"
+    links: "#183B56"
+    footer: "#737D87"
+  typography:
+    font_family: Source Sans 3
+    alignment: left
+    line_spacing: 0.55em
+    font_size:
+      body: 10.5pt
+      name: 29pt
+      headline: 12pt
+      connections: 9.5pt
+      section_titles: 13pt
+    bold:
+      name: true
+      section_titles: true
+  header:
+    alignment: left
+    photo_width: 2.8cm
+    photo_position: right
+    photo_space_left: 0.6cm
+    photo_space_right: 0cm
+    space_below_name: 0.2cm
+    space_below_headline: 0.3cm
+    space_below_connections: 0.5cm
+    connections:
+      phone_number_format: international
+      space_between_connections: 0.4cm
+  links:
+    underline: false
+  section_titles:
+    type: moderncv
+    line_thickness: 0.5pt
+    space_above: 0.5cm
+    space_below: 0.25cm
+  sections:
+    space_between_regular_entries: 1.2em
+  entries:
+    date_and_location_width: 3.7cm
+    space_between_columns: 0.4cm
+    allow_page_break: false
+    highlights:
+      space_above: 0.15cm
+      space_between_items: 0.08cm
+  templates:
+    education_entry:
+      main_column: |-
+        **INSTITUTION**, AREA -- LOCATION
+        SUMMARY
+        HIGHLIGHTS
