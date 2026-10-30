@@ -1,0 +1,127 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.4/schema.json
+cv:
+  name: Savan Doornink
+  photo: savan.png
+  phone: "+31 6 39201735"
+  email: savan24102@gmail.com
+  location: Sint Laurensstraat 7j, 1811 KM Alkmaar
+  sections:
+    Profiel:
+      - >-
+        Medewerker beleid en bedrijfsvoering met ruim vier jaar ervaring in klantcontact,
+        procesoptimalisatie en software-implementatie. Werkt met KPI’s, planningen en externe partijen,
+        en spreekt vloeiend Engels. Studeert Psychologie en zoekt een rol als Mid-Market
+        Implementation Specialist in de EMEA-regio.
+    Werkervaring:
+      - company: Marcel Bakkum Rouwvervoer
+        position: Medewerker Beleid en Bedrijfsvoering
+        start_date: 2022-02
+        end_date: present
+        highlights:
+          - Bijdragen aan software-implementatie en het verbeteren van bestaande werkwijzen
+          - Signaleren van knelpunten en optimaliseren van administratieve en operationele werkprocessen
+          - KPI’s opstellen en monitoren, resultaten evalueren en waar nodig bijsturen
+          - >-
+            Ontwikkelen en implementeren van beleidskaders gericht op klantgerichtheid en
+            procesoptimalisatie binnen de organisatie
+          - >-
+            Verantwoordelijk voor het merendeel van het klantcontact en het begeleiden van klanten
+            in verschillende processen rondom een uitvaart
+          - Klantvragen beantwoorden, verwachtingen afstemmen en informatie helder en zorgvuldig overbrengen
+          - >-
+            Klantfeedback verwerken en opvolgen, met aandacht voor passende oplossingen en een
+            zorgvuldige dienstverlening
+          - Opstellen van jaarplanningen en personeelsroosters
+          - Onderhouden van contacten met leveranciers en andere externe partijen
+          - Uitvoeren en coördineren van administratieve en HR-werkzaamheden
+      - company: Studio Forta
+        position: Hostess
+        start_date: 2026-10
+        end_date: present
+        highlights:
+          - Ontvangen en aanmelden van klanten in de studio
+          - Klantcontact afhandelen, zowel fysiek als administratief
+          - Werkzaamheden als barista
+      - company: Kingsinn
+        position: Receptioniste
+        start_date: 2022-05
+        end_date: 2022-10
+        highlights:
+          - Vriendelijk en professioneel ontvangen van bezoekers en klanten, met een gastvrije eerste indruk
+          - Nauwkeurig verwerken en archiveren van binnenkomende post en digitale correspondentie
+          - Beheren van de telefooncentrale en doorverbinden van gesprekken met correcte informatieverstrekking
+          - Oplossen van klantvragen en klachten aan de balie met empathie en klantgerichte communicatie
+          - >-
+            Opvangen en begeleiden van bezoekers met aandacht voor persoonlijke wensen en een
+            comfortabele wachtruimte
+      - company: De Groene Slager
+        position: Allround medewerker
+        start_date: 2019-09
+        end_date: 2021-02
+        highlights:
+          - Verlenen van service en ondersteuning aan klanten
+          - Toepassen van productkennis in het klantcontact
+          - Servicegericht en efficiënt werken en meerdere taken gelijktijdig uitvoeren
+          - Bewerken en bereiden van verschillende soorten vlees
+      - company: Zoomers
+        position: Allround medewerker
+        start_date: 2018-04
+        end_date: 2022-10
+        highlights:
+          - Klantgericht, efficiënt en proactief handelen in drukke en stressvolle situaties
+          - Inwerken van nieuw personeel
+          - Werkzaam in de bar, keuken, afwas en bediening (seizoenswerk)
+    Opleiding:
+      - institution: Open Universiteit
+        area: Psychologie
+        location: Amsterdam
+        start_date: 2025-09
+        end_date: present
+      - institution: HvA
+        area: Pedagogiek
+        location: Amsterdam
+        start_date: 2020-09
+        end_date: 2022-02
+      - institution: Bonhoeffer College
+        area: Havo
+        start_date: 2014-09
+        end_date: 2019-04
+    Stages:
+      - company: Permens
+        position: Streetcornerwork
+        location: Haarlem
+        start_date: 2021-01
+        end_date: 2021-06
+      - company: Bataviaschool
+        position: Lerares Nederlands, nieuwkomersonderwijs
+        location: Amsterdam
+        start_date: 2021-10
+        end_date: 2022-05
+    Cursussen:
+      - bullet: >-
+          Beschermjassen (feb 2022): interculturele competenties versterken, systemisch waarnemen
+          en cliënten inbedden in hun historie, cultuur en gemeenschap tijdens ingrijpende levensgebeurtenissen
+      - bullet: Videografie en editing (mrt 2025)
+    Vaardigheden:
+      - bullet: Office Suite
+      - bullet: Management
+      - bullet: Rijbewijs B
+    Talen:
+      - label: Nederlands
+        details: moedertaal
+      - label: Engels
+        details: vloeiend
+    Hobby’s:
+      - bullet: Duiken
+      - bullet: Wijn (WSET 2 en 3)
+      - bullet: Lezen
+      - bullet: Hiken
+design:
+  theme: moderncv
+  page:
+    size: a4
+    top_margin: 0.7in
+    bottom_margin: 0.7in
+    left_margin: 0.7in
+    right_margin: 0.7in
+    show_footer: true

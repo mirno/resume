@@ -1,0 +1,127 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.4/schema.json
+cv:
+  name: Savan Doornink
+  photo: savan.png
+  phone: "+31 6 39201735"
+  email: savan24102@gmail.com
+  location: Sint Laurensstraat 7j, 1811 KM Alkmaar
+  sections:
+    Profile:
+      - >-
+        Policy and Operations Officer with over four years of experience in customer service,
+        process optimisation and software implementation. Experienced in working with KPIs,
+        schedules and external stakeholders, and fluent in English. Currently studying Psychology
+        and seeking a role as a Mid-Market Implementation Specialist in the EMEA region.
+    Work Experience:
+      - company: Marcel Bakkum Rouwvervoer
+        position: Policy and Operations Officer
+        start_date: 2022-02
+        end_date: present
+        highlights:
+          - Contributing to software implementation and improving existing working practices
+          - Identifying bottlenecks and optimising administrative and operational processes
+          - Defining and monitoring KPIs, evaluating results and making adjustments where needed
+          - >-
+            Developing and implementing policy frameworks focused on customer service and
+            process optimisation within the organisation
+          - >-
+            Responsible for most customer communication and guiding customers through
+            various processes related to funeral arrangements
+          - Answering customer enquiries, aligning expectations and communicating information clearly and carefully
+          - >-
+            Processing and following up on customer feedback, focusing on appropriate solutions
+            and attentive service
+          - Preparing annual plans and staff schedules
+          - Maintaining relationships with suppliers and other external stakeholders
+          - Performing and coordinating administrative and HR tasks
+      - company: Studio Forta
+        position: Hostess
+        start_date: 2026-10
+        end_date: present
+        highlights:
+          - Welcoming and checking in customers at the studio
+          - Handling customer interactions and related administrative tasks
+          - Performing barista duties
+      - company: Kingsinn
+        position: Receptionist
+        start_date: 2022-05
+        end_date: 2022-10
+        highlights:
+          - Welcoming visitors and customers in a friendly and professional manner, creating a welcoming first impression
+          - Accurately processing and archiving incoming mail and digital correspondence
+          - Operating the switchboard, transferring calls and providing accurate information
+          - Resolving customer enquiries and complaints at reception with empathy and customer-focused communication
+          - >-
+            Welcoming and assisting visitors, attending to individual preferences and ensuring
+            a comfortable waiting area
+      - company: De Groene Slager
+        position: General Assistant
+        start_date: 2019-09
+        end_date: 2021-02
+        highlights:
+          - Providing service and assistance to customers
+          - Applying product knowledge in customer interactions
+          - Working efficiently with a focus on service while managing multiple tasks
+          - Processing and preparing various types of meat
+      - company: Zoomers
+        position: General Assistant
+        start_date: 2018-04
+        end_date: 2022-10
+        highlights:
+          - Working proactively and efficiently with a customer focus in busy and stressful situations
+          - Training new staff
+          - Working across bar service, kitchen duties, dishwashing and table service (seasonal work)
+    Education:
+      - institution: Open Universiteit
+        area: Psychology
+        location: Amsterdam
+        start_date: 2025-09
+        end_date: present
+      - institution: HvA
+        area: Education and Child Development
+        location: Amsterdam
+        start_date: 2020-09
+        end_date: 2022-02
+      - institution: Bonhoeffer College
+        area: Senior General Secondary Education (HAVO)
+        start_date: 2014-09
+        end_date: 2019-04
+    Internships:
+      - company: Permens
+        position: Street Outreach Work
+        location: Haarlem
+        start_date: 2021-01
+        end_date: 2021-06
+      - company: Bataviaschool
+        position: Dutch Language Teacher, Newcomer Education
+        location: Amsterdam
+        start_date: 2021-10
+        end_date: 2022-05
+    Courses:
+      - bullet: >-
+          Beschermjassen (Feb 2022): strengthening intercultural competencies, taking a systemic
+          perspective and connecting clients with their history, culture and community during major life events
+      - bullet: Videography and Editing (Mar 2025)
+    Skills:
+      - bullet: Office Suite
+      - bullet: Management
+      - bullet: Category B Driving Licence
+    Languages:
+      - label: Dutch
+        details: native
+      - label: English
+        details: fluent
+    Hobbies:
+      - bullet: Diving
+      - bullet: Wine (WSET 2 and 3)
+      - bullet: Reading
+      - bullet: Hiking
+design:
+  theme: moderncv
+  page:
+    size: a4
+    top_margin: 0.7in
+    bottom_margin: 0.7in
+    left_margin: 0.7in
+    right_margin: 0.7in
+    show_footer: true
